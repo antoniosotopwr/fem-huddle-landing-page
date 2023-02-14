@@ -3,10 +3,39 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 body {
   scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+}
+.header-logo {
+  width: 80%;
+}
+.main-nav-list {
+  list-style: none;
+}
+.main-nav-btn {
+  color: hsl(322, 100%, 66%);
+  padding: 0.5rem 1.3rem;
+  background-color: white;
+  border: 2px solid hsl(322, 100%, 66%);
+  border-radius: 2rem;
+  margin-right: 1rem;
+  transition: all 0.3s linear;
+}
+
+.main-nav-btn:hover {
+  cursor: pointer;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
