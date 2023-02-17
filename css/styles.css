@@ -49,6 +49,8 @@ body {
   align-items: center;
   text-align: center;
   gap: 1rem;
+
+  margin-top: 7rem;
 }
 .hero-title {
   font-size: 3rem;
@@ -58,9 +60,11 @@ body {
 .hero-p {
   max-width: 30rem;
   line-height: 1.5;
+  margin-bottom: 0.5rem;
 }
 
 .hero-btn {
+  display: inline;
   padding: 1rem 3rem;
   background-color: hsl(322, 100%, 66%);
   color: white;
