@@ -36,6 +36,38 @@ body {
   cursor: pointer;
 }
 
+.container {
+  max-width: 92rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.section-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+.hero-title {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.hero-p {
+  max-width: 30rem;
+  line-height: 1.5;
+}
+
+.hero-btn {
+  padding: 1rem 3rem;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border-radius: 2rem;
+  text-decoration: none;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
