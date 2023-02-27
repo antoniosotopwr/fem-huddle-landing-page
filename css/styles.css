@@ -42,7 +42,8 @@ body {
   margin: 0 auto;
 }
 
-.section-hero {
+.section-hero,
+.section-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,6 +71,13 @@ body {
   color: white;
   border-radius: 2rem;
   text-decoration: none;
+}
+
+.info-data-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
 }
 
 .attribution {
