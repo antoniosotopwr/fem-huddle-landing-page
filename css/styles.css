@@ -72,12 +72,27 @@ body {
   border-radius: 2rem;
   text-decoration: none;
 }
-
-.info-data-cards{
+/* Think about use max width in the grid cards or only use column gap */
+.info-data-cards-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   justify-items: center;
+  column-gap: 5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-icon {
+  align-self: flex-start;
+}
+
+.info-card-number {
+  font-size: 5rem;
 }
 
 .attribution {
