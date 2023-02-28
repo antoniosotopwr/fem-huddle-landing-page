@@ -78,7 +78,8 @@ body {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   justify-items: center;
-  column-gap: 5rem;
+  column-gap: 25rem;
+  margin-top: 5rem;
 }
 
 .card {
@@ -98,6 +99,8 @@ body {
 
 .info-card-p{
   margin-top: 0.5rem;
+  color: black;
+  opacity: .5;
 }
 
 .attribution {
