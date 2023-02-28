@@ -89,10 +89,15 @@ body {
 }
 .info-icon {
   align-self: flex-start;
+  width: 20%;
 }
 
 .info-card-number {
-  font-size: 5rem;
+  font-size: 4rem;
+}
+
+.info-card-p{
+  margin-top: 0.5rem;
 }
 
 .attribution {
