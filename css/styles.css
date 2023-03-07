@@ -106,10 +106,9 @@ body {
 .section-features {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-content: center;
   justify-items: center;
   align-items: center;
-  align-content: center;
+  margin-top: 5rem;
 }
 
 .features-text-img {
@@ -118,8 +117,9 @@ body {
 .features-grow-img {
   width: 100%;
 }
-.features-text-title{
+.features-text-title {
   font-size: 2rem;
+  margin-bottom: 1rem;
 }
 .features-text-p {
   max-width: 30rem;
