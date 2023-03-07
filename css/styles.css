@@ -97,12 +97,37 @@ body {
   font-size: 4rem;
 }
 
-.info-card-p{
+.info-card-p {
   margin-top: 0.5rem;
   color: black;
-  opacity: .5;
+  opacity: 0.5;
 }
 
+.section-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.features-text-img {
+  width: 50%;
+}
+.features-grow-img {
+  width: 100%;
+}
+.features-text-title{
+  font-size: 2rem;
+}
+.features-text-p {
+  max-width: 30rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+/* --- */
 .attribution {
   font-size: 11px;
   text-align: center;
