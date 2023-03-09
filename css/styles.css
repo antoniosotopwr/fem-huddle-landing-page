@@ -42,6 +42,17 @@ body {
   margin: 0 auto;
 }
 
+
+.grid--2-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid--center {
+  justify-items: center;
+  align-items: center;
+}
+
 .section-hero,
 .section-info {
   display: flex;
@@ -102,19 +113,26 @@ body {
   color: black;
   opacity: 0.5;
 }
-.img-curve-top{
-  margin-bottom: -0.3rem;
+.img-curve-top {
+  /* margin-bottom: -0.3rem; */
+  width: 100%;
+}
+.img-curve-bottom {
+  /* margin-bottom: -0.3rem; */
   width: 100%;
 }
 /* Hacer toda la featured section con un flexbox direction column
 quitar el container a todo e ir aplicandolo por seccion */
 .section-features {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  align-items: center;
-  /* background-color: #f6fbff; */
-  background-color: #5eabea;
+  display: flex;
+  flex-direction: column;
+}
+/* usar nth child for only apply color to the odds */
+.features-1-container {
+  max-width: 92rem;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #f6fbff;
 }
 .features-text-img {
   width: 50%;
