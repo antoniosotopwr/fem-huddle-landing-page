@@ -130,7 +130,7 @@ quitar el container a todo e ir aplicandolo por seccion */
 /* usar nth child for only apply color to the odds */
 .features-1-container {
   max-width: 92rem;
-  padding: 0;
+  padding: 0 !important;
   margin: 0 auto;
   background-color: #f6fbff;
 }
