@@ -102,15 +102,20 @@ body {
   color: black;
   opacity: 0.5;
 }
-
+.img-curve-top{
+  margin-bottom: -0.3rem;
+  width: 100%;
+}
+/* Hacer toda la featured section con un flexbox direction column
+quitar el container a todo e ir aplicandolo por seccion */
 .section-features {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   align-items: center;
-  margin-top: 5rem;
+  /* background-color: #f6fbff; */
+  background-color: #5eabea;
 }
-
 .features-text-img {
   width: 50%;
 }
