@@ -83,6 +83,11 @@ body {
   border-radius: 2rem;
   text-decoration: none;
 }
+
+.info-mockup-img{
+  padding: 0 1rem;
+  width: 100%;
+}
 /* Think about use max width in the grid cards or only use column gap */
 .info-data-cards-grid {
   display: grid;
@@ -136,6 +141,9 @@ quitar el container a todo e ir aplicandolo por seccion */
 }
 .features-1-container:nth-of-type(odd){
   background-color: #f6fbff;
+}
+.features-text-box{
+  padding: 0 1rem;
 }
 .features-text-img {
   width: 50%;
