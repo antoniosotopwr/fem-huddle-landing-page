@@ -63,6 +63,7 @@ body {
 
   margin-top: 7rem;
 }
+
 .hero-title {
   font-size: 3rem;
   font-family: "Poppins", sans-serif;
@@ -124,6 +125,8 @@ body {
 }
 .img-curve-bottom {
   width: 100%;
+}
+.img-curve-bottom:nth-of-type(odd) {
   margin-bottom: 5rem;
 }
 
@@ -154,11 +157,39 @@ quitar el container a todo e ir aplicandolo por seccion */
 .features-text-title {
   font-size: 2rem;
   margin-bottom: 1rem;
+  font-weight: 700;
 }
 .features-text-p {
   max-width: 30rem;
   line-height: 1.5;
   margin-bottom: 0.5rem;
+}
+/* Section CTA */
+.section-cta {
+  padding: 1rem 0;
+  margin: 4rem;
+}
+.cta-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.flexbox-column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ctn-btn {
+  display: inline;
+  padding: 1rem 3rem;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border-radius: 2rem;
+  text-decoration: none;
 }
 
 /* --- */
