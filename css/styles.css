@@ -130,8 +130,6 @@ body {
   margin-bottom: 5rem;
 }
 
-/* Hacer toda la featured section con un flexbox direction column
-quitar el container a todo e ir aplicandolo por seccion */
 .section-features {
   display: flex;
   flex-direction: column;
@@ -139,7 +137,7 @@ quitar el container a todo e ir aplicandolo por seccion */
 /* usar nth child for only apply color to the odds */
 .features-1-container {
   max-width: 92rem;
-  padding: 0 1rem;
+  padding: 0;
   margin: 0 auto;
 }
 .features-1-container:nth-of-type(odd) {
@@ -190,6 +188,23 @@ quitar el container a todo e ir aplicandolo por seccion */
   color: white;
   border-radius: 2rem;
   text-decoration: none;
+}
+
+/* Check the white space  */
+/* FOOTER */
+
+.container-padding {
+  max-width: 92rem;
+  padding: 0;
+  margin: 0 auto;
+}
+.img-curve-footer {
+  width: 100%;
+  /* margin-bottom: -0.3rem; */
+}
+
+.footer-atribution {
+  background-color: #cdb1a8;
 }
 
 /* --- */
