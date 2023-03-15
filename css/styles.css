@@ -204,7 +204,7 @@ body {
 /* footer{background-color:red} */
 .container-padding {
   max-width: 92rem;
-  padding: 0;
+  padding: 4rem 0;
   margin: 0 auto;
 }
 .img-curve-footer {
@@ -225,18 +225,27 @@ body {
   line-height: 1.5;
   margin-bottom: 0.5rem;
 }
+.footer-contact{
+  margin-bottom: 2rem;
+}
 .footer-contact li {
   display: flex;
   list-style: none;
   align-items: center;
   gap: 1rem;
 }
-.footer-contact li:nth-child(1){
+.footer-contact li:nth-child(1) {
   margin-bottom: 0.5rem;
 }
 .contact-icon {
   width: 1.5rem;
   height: 1.5rem;
+}
+.footer-social {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 1rem;
 }
 .social-icon {
   width: 2rem;
