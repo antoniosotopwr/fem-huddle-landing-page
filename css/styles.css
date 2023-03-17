@@ -215,7 +215,8 @@ body {
   /* Enable at the end */
   /* filter: brightness(0) invert(1); */
 }
-.footer-section-1 {
+.footer-section-1,
+.footer-section-2 {
   margin-left: 5rem;
   padding: 0 1rem;
   justify-self: start;
@@ -225,7 +226,7 @@ body {
   line-height: 1.5;
   margin-bottom: 0.5rem;
 }
-.footer-contact{
+.footer-contact {
   margin-bottom: 2rem;
 }
 .footer-contact li {
@@ -254,6 +255,18 @@ body {
 
 .footer-padding {
   padding: 0 2rem;
+}
+
+.footer-news-title {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.footer-info-p-news{
+  max-width: 24rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
 }
 
 .footer-atribution {
