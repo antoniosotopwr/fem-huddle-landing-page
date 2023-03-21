@@ -204,7 +204,7 @@ body {
 /* footer{background-color:red} */
 .container-padding {
   max-width: 92rem;
-  padding: 4rem 0;
+  padding: 4rem 1rem;
   margin: 0 auto;
 }
 .img-curve-footer {
@@ -215,14 +215,23 @@ body {
   /* Enable at the end */
   /* filter: brightness(0) invert(1); */
 }
-.footer-section-1,
+.footer-sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.footer-section-1{
+  /* justify-self: end; */
+  padding: 1rem;
+  margin-left: 4rem;
+}
 .footer-section-2 {
-  margin-left: 5rem;
-  padding: 0 1rem;
-  justify-self: start;
+  /* margin-left: 5rem; */
+  /* padding: 0 1rem; */
+  /* justify-self: start; */
+  padding: 1rem;
 }
 .footer-info-p {
-  max-width: 22rem;
+  width: 22rem;
   line-height: 1.5;
   margin-bottom: 0.5rem;
 }
@@ -264,7 +273,7 @@ body {
 }
 
 .footer-info-p-news {
-  max-width: 24rem;
+  width: 24rem;
   line-height: 1.5;
   margin-bottom: 0.5rem;
 }
@@ -274,21 +283,20 @@ body {
   box-shadow: 0 0 0 0.2rem rgba(181, 173, 167, 0.5);
 }
 
-
 .footer-form input {
   width: 60%;
   border: none;
-  padding: 0.5rem;
+  padding: 0.8rem;
   font-family: inherit;
   font-size: 1rem;
   background-color: #f2bb8e; /*Make it white */
   border-radius: 7px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
-.btn-form{
+.btn-form {
   display: inline-block;
   text-decoration: none;
-  padding: 0.8rem 1rem;
+  padding: 0.9rem 1rem;
   font-weight: 700;
   border: none;
   border-radius: 7px;
@@ -296,9 +304,8 @@ body {
   color: white;
   transition: all 0.3s;
   font-family: inherit;
-  
 }
-.btn-form:hover{
+.btn-form:hover {
   cursor: pointer;
 }
 .footer-atribution {
