@@ -216,7 +216,6 @@ footer {
   margin: 0.3rem 0 -0.3rem 0;
 }
 .footer-logo {
-  /* Enable at the end */
   filter: brightness(0) invert(1);
 }
 .footer-sections {
@@ -260,6 +259,11 @@ footer {
   list-style: none;
   align-items: center;
   gap: 1rem;
+}
+.footer-link{
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s;
 }
 .social-icon {
   width: 2rem;
