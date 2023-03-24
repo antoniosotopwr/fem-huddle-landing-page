@@ -260,7 +260,7 @@ footer {
   align-items: center;
   gap: 1rem;
 }
-.footer-link{
+.footer-link {
   text-decoration: none;
   color: white;
   transition: all 0.3s;
