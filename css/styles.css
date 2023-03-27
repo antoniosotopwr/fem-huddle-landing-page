@@ -6,6 +6,7 @@
 body {
   scroll-behavior: smooth;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 .header {
@@ -119,9 +120,12 @@ body {
   color: black;
   opacity: 0.5;
 }
-.img-curve-top {
+.img-curve-top-margin{
   width: 100%;
   margin-top: 5rem;
+}
+.img-curve-top {
+  width: 100%;
 }
 .img-curve-bottom {
   width: 100%;
