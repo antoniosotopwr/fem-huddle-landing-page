@@ -1,0 +1,17 @@
+/* ************************** */
+/* BELOW 944px (Tablets) */
+/* ************************** */
+@media (max-width: 61.5em) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+  .info-mockup-img{
+    width: 80%;
+  }
+  .info-data-cards-grid{
+    column-gap: 14rem;
+  }
+  .features-text-box {
+    padding: 0 4rem;
+  }
+}
