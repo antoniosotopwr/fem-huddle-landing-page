@@ -18,18 +18,18 @@ body {
   padding: 1rem 3rem;
 }
 .header-logo {
-  width: 80%;
+  height: 1.8rem;
 }
 .main-nav-list {
   list-style: none;
 }
 .main-nav-btn {
+  display: inline-block;
   color: hsl(322, 100%, 66%);
   padding: 0.5rem 1.3rem;
   background-color: white;
   border: 2px solid hsl(322, 100%, 66%);
   border-radius: 2rem;
-  margin-right: 1rem;
   transition: all 0.3s linear;
 }
 
@@ -120,7 +120,7 @@ body {
   color: black;
   opacity: 0.5;
 }
-.img-curve-top-margin{
+.img-curve-top-margin {
   width: 100%;
   margin-top: 5rem;
 }
@@ -315,7 +315,8 @@ footer {
   width: 60%;
   display: inline-block;
   text-decoration: none;
-  padding: 0.9rem 0.5rem;
+  /* padding: 0.9rem 0.5rem; */
+  padding: .5rem .8rem;
   font-weight: 700;
   border: none;
   border-radius: 7px;
