@@ -72,4 +72,9 @@
   .info-mockup-img {
     width: 100%;
   }
+  .info-data-cards-grid {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 5rem;
+  }
 }
