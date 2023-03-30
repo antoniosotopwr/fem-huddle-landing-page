@@ -64,8 +64,8 @@
   .hero-title {
     font-size: 1.8rem;
   }
-  .hero-p{
-    font-size: .98rem;
+  .hero-p {
+    font-size: 0.98rem;
     padding: 0 1rem;
     margin-bottom: 1rem;
   }
@@ -79,5 +79,21 @@
   }
   .grid--2-columns {
     grid-template-columns: 1fr;
+  }
+  .features-1-container {
+    padding: 2rem 0;
+    row-gap: 4rem;
+  }
+  .features-text-box {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  .features-text-img{
+    grid-row: 1;
+  }
+  .features-text-p {
+    padding: 0 2rem;
   }
 }
