@@ -23,7 +23,7 @@
   }
 }
 
-/* 832px */
+/* 832px
 @media (max-width: 52em) {
   .hero-title {
     font-size: 1.9rem;
@@ -50,7 +50,7 @@
   .footer-section-2 {
     padding: 0;
   }
-}
+} */
 
 @media (max-width: 25em) {
   .header {
@@ -76,5 +76,8 @@
     grid-template-columns: 1fr;
     column-gap: 0;
     row-gap: 5rem;
+  }
+  .grid--2-columns {
+    grid-template-columns: 1fr;
   }
 }
