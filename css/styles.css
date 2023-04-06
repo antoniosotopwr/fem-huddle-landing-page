@@ -62,13 +62,14 @@ body {
   text-align: center;
   gap: 1rem;
 
-  margin-top: 7rem;
+  margin-top: 8rem;
 }
 
 .hero-title {
   font-size: 3rem;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
+  letter-spacing: -0.1rem;
 }
 .hero-p {
   max-width: 30rem;
@@ -240,10 +241,10 @@ footer {
 .footer-info-p {
   width: 22rem;
   line-height: 1.5;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 }
 .footer-contact {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .footer-contact li {
   display: flex;
@@ -252,7 +253,7 @@ footer {
   gap: 1rem;
 }
 .footer-contact li:nth-child(1) {
-  margin-bottom: 0.5rem;
+  margin-bottom: .8rem;
 }
 .contact-icon {
   width: 1.5rem;
