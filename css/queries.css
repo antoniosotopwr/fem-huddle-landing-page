@@ -37,8 +37,13 @@
     height: 1.9rem;
   }
   .footer-info-p,
-  .footer-contact-span {
+  .footer-contact-span,
+  .footer-info-p-news {
     font-size: 0.95rem;
+  }
+  .footer-info-p,
+  .footer-info-p-news {
+    width: auto;
   }
   .contact-icon {
     width: 1.3rem;
@@ -47,6 +52,9 @@
   .social-icon {
     width: 1.8rem;
     height: 1.8rem;
+  }
+  .footer-news-title {
+    font-size: 1.3rem;
   }
 }
 
@@ -78,9 +86,11 @@
     padding: 0;
   }
 } */
+
 /* BELOW 400px */
 /* Ver que onda aqui, si lo dejo menos a 480 o a 375 */
-/* agregar tablets a 730 algo */
+/* agregar tablets a 730 algo de media querie */
+/* Cambiar tamaño de la fuente en la section features (la de img y text) */
 @media (max-width: 30em) {
   .header {
     padding: 1rem;
