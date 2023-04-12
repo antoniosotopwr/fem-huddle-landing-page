@@ -33,6 +33,9 @@
 
 /* 824px */
 @media (max-width: 51.5em) {
+  .info-data-cards-grid{
+    column-gap: 10rem;
+  }
   .footer-logo {
     height: 1.9rem;
   }
@@ -58,40 +61,24 @@
   }
 }
 
-/* 832px
-@media (max-width: 52em) {
-  .hero-title {
-    font-size: 1.9rem;
-  }
-  .info-data-cards-grid {
-    column-gap: 10rem;
-  }
-  .features-1-container {
-    padding: 2rem 0;
+/* 728px */
+@media (max-width: 45.5em) {
+  /* Ver en que breakpoint cambiar el font size de section features tal vez 728 */
+  /* Cambiar tamaño de la fuente en la section features (la de img y text) */
+  /* Hacer la querie de 1 column grid  */
+  .info-data-cards-grid{
+    column-gap: 7rem;
   }
   .features-text-title {
-    font-size: 1.5rem;
-  }
-  .features-text-box {
-    padding: 0 2rem;
+    font-size: 1.7rem;
   }
   .features-text-p {
-    font-size: 0.9rem;
+    font-size: 0.93rem;
   }
-  .section-cta {
-    margin: 3rem 0;
-  }
-  .footer-section-1,
-  .footer-section-2 {
-    padding: 0;
-  }
-} */
+}
 
-/* BELOW 400px */
-/* Ver que onda aqui, si lo dejo menos a 480 o a 375 */
-/* agregar tablets a 730 algo de media querie */
-/* Cambiar tamaño de la fuente en la section features (la de img y text) */
-@media (max-width: 30em) {
+/* BELOW 448px */
+@media (max-width: 28em) {
   .header {
     padding: 1rem;
   }
