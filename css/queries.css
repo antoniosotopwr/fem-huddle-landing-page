@@ -33,7 +33,7 @@
 
 /* 824px */
 @media (max-width: 51.5em) {
-  .info-data-cards-grid{
+  .info-data-cards-grid {
     column-gap: 10rem;
   }
   .footer-logo {
@@ -66,10 +66,11 @@
   /* Ver en que breakpoint cambiar el font size de section features tal vez 728 */
   /* Cambiar tamaño de la fuente en la section features (la de img y text) */
   /* Hacer la querie de 1 column grid  */
-  .info-data-cards-grid{
+  .info-data-cards-grid {
     column-gap: 7rem;
   }
-  .features-text-title {
+  .features-text-title,
+  .cta-title {
     font-size: 1.7rem;
   }
   .features-text-p {
@@ -122,5 +123,26 @@
   }
   .features-text-p {
     padding: 0 2rem;
+  }
+  .footer-info-p{
+    width: 100%;
+  }
+  .footer-sections {
+    grid-template-columns: 1fr;
+  }
+  .footer-section-2 {
+    grid-row: 1;
+    margin-bottom: 2rem;
+  }
+  .footer-form {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+  .footer-form input {
+    width: 100%;
+  }
+  .btn-form {
+    padding: 0.8rem 1.8rem;
+    justify-self: end;
   }
 }
