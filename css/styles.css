@@ -37,6 +37,9 @@ body {
 .main-nav-btn:hover,
 .main-nav-btn:active {
   cursor: pointer;
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  /* border: 2px solid white; */
 }
 
 .container {
@@ -203,12 +206,19 @@ body {
 .cta-btn {
   display: inline;
   padding: 1rem 3rem;
-  background-color: hsl(322, 100%, 66%);
+  background-color: #ff52bf;
   color: white;
   border-radius: 2rem;
   text-decoration: none;
   box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.18);
   transition: all 0.3s linear;
+}
+.hero-btn:hover,
+.hero-btn:active,
+.cta-btn:hover,
+.cta-btn:active {
+  cursor: pointer;
+  background-color: #ff75cc;
 }
 
 /* Check the white space  */
